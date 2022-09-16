@@ -1,0 +1,253 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'comic sans ms';
+
+}
+
+.wrapper {
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: rgb(0, 0, 0);
+    z-index: 1;
+    border-bottom: 1px solid rgb(63, 62, 62);
+}
+
+
+.navbar-brand img {
+    width: 60px;
+    float: left;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.logo a {
+    font-size: 30px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #fff;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.menu {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color:#fff;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 16px 0 16px;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-right: 20px;
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(209, 57, 55);
+    transition: all .2s ease-in-out;
+}
+
+#home {
+    padding: 100px 0 180px 0;
+    background-image: url(https://img.freepik.com/premium-photo/tasty-espresso-served-cup-with-coffee-beans-around-spoon-view-from-dark-background-banner_1220-5751.jpg?w=1380);
+    background-size: cover;
+    color: white;    
+}
+
+.kolom {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 0 20px 0 20px;
+}
+
+.kolom .deskripsi {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #fff;
+    width: 50%;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: unset;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    width: 100%;
+    line-height: 40px;
+}
+
+a.tbl-merah {
+    background: #ba6900;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #fff !important;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-merah:hover {
+    background: #7d6315;
+    text-decoration: none;
+}
+
+a.tbl-coklat {
+    background: #865516;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #fff ;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-coklat:hover {
+    background: #9f7a29;
+    text-decoration: none;
+}
+
+a.tbl-coklat:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+p {
+    margin: 10px 0 10px 0;
+    padding: 10px 0 10px 0;
+}
+
+
+#menu {
+    padding: 50px 0 100px 0;
+    background:rgb(0, 0, 0);
+    background-size: cover;
+    color: white;  
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.list-menu {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-minuman {
+    width: 20%;
+    margin: 0 auto;
+    padding-left: 15px;
+}
+
+.list-minuman img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.list-minuman {
+    font-family: 'comic sans ms';
+    font-size: 12px;
+    font-weight: 800;
+    text-align: center;
+    display: inline-block;
+}
+
+a.tbl-kuning {
+    background: #96754b;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #fff ;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-kuning:hover {
+    background: #e7c06c;
+    text-decoration: none;
+}
+
+a.tbl-kuning:active {
+    position: relative;
+    top: 2px;
+    box-shadow: none;
+}
+
+#about {
+    width: 100%;
+    padding: 50px 0 50px 0;
+    background-image: url(https://img.freepik.com/free-photo/closeup-shot-roasted-coffee-beans_181624-38585.jpg?w=1060&t=st=1663305397~exp=1663305997~hmac=1ee6bcc59e761bdf0176619a2d33eac5bf7c2fc19c4f258e878305a91184a40a);
+    background-size: cover;
+    color: rgb(253, 214, 214);
+    height: 65vh;
+}
+
+.footer {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    
+}
+
+.footer-section {
+    width: 20%;
+    margin: 30px;
+}
+
+h3 { 
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 10px;
+    width: 100%;
+    color: rgb(249, 249, 249);
+    line-height: 50px;
+}
+
+.footer-section p {
+    font-size: 15px;
+    padding-bottom: 1px;
+}
+
+

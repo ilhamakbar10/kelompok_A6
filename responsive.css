@@ -1,0 +1,21 @@
+@media (max-width: 1000px) {
+    
+    .list-minuman {
+        width: 100%;
+        padding-top: 60px;
+        height: auto;
+    }
+
+    .list-minuman img {
+        width: 250px;
+    }
+
+    .footer-section {
+        text-align: center;
+        font-size: 20px;
+    }
+        
+}
+
+
+
